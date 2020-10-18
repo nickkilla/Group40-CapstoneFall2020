@@ -1,0 +1,23 @@
+{
+    "name": "nickkilla/coursera",
+    "description": "Coursera Capstone Project",
+    "license": "MIT",
+    "require": {
+        "php": "^7.1.3",
+        "ext-pdo": "*",
+        "ext-openssl": "*",
+	"ext-sqreen": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+           "lib\\": "lib/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "platform": {
+            "ext-sqreen": "1.10.0"
+        }
+    }
+}
